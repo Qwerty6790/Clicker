@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.navigation-panel { 
+  display: flex;
+  align-items: center;
+  border: 1px solid #dfd6b6;
+  background-color: #383838;
+  border-radius: 20px;
+  justify-content: center;  
+  align-items:center;  
+  margin: 0 10px 23px;
+  padding: 0 -20px 0 -10px;
+  margin-bottom:95px;
+  margin-left: 15px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  font-family: "Montserrat", sans-serif; 
+  font-optical-sizing: auto; 
+  font-style: 700; 
+  position: fixed; 
+  font-size: 12px; 
+  bottom: 0; 
+  width: 400px; 
+  height:63px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  z-index: 100;
+  
+} 
+
+.Cards{
+  display: flex;
+  gap: 50px;
+  font-size: 18px;
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #464646;
+  padding: 10px 10px 0 0;
+  left: 14%;
+  top:15%;
+}
+
+.main-name{
+  color: aliceblue;
+  margin: 5px 0 0 28px;
+}
+
+.message-of-earn {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 13px;
+  color: aliceblue;
+  position: absolute;
+  flex-direction: column;
+  align-items: center; 
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  display: flex;
+
+  white-space: nowrap;
+}
+
+
+
+
+
