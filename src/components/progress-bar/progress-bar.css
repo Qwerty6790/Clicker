@@ -23,6 +23,7 @@
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+z-index: 40;
 }
 
 .img-four{
@@ -33,7 +34,6 @@
   margin-top: -83px;
   margin-left: 280px;
 }
-
 
 
 .icons-store{
@@ -56,6 +56,7 @@
 .number{
   color: #000;
   font-weight: bold;
+  margin-top: 0.6vh;
 }
 
 .store{
@@ -71,11 +72,11 @@
   position: absolute;
   border: 1px solid #e0a05b;
   background-color: #be7220;
-  top:73%;
-  left:5%;
+  top:75.5%;
+  left:1.7%;
   padding-top:4px;
-  width: 385px;
-  height: 52px;
+  width: 96%;
+  height: 5.6%;
   border-radius: 15px;
 }
 
@@ -84,6 +85,5 @@
   font-size: 10px;
   top: 69.5%;
   left: 3%;
-
 }
 

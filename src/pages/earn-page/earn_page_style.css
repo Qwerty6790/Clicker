@@ -1,52 +1,199 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@media screen and (max-width:414px) and (max-width: 896px){
+  .cart-section{
+    margin-left: -6.5vh!important;
+    width: 450%!important;
+   }
+}
 
-.navigation-panel { 
+
+@media screen and (max-width:390px) and (max-width: 844px){
+  .cart-section{
+   margin-left: -6.5vh!important;
+   width: 430%!important;
+  }
+
+  .img-1{
+    width: 27%;
+  }
+
+  .img-2{
+    width: 27%;
+  }
+
+  .img-3{
+    width: 27%;
+  }
+
+  .img-4{
+    width: 27%;
+  }
+
+  .img-5{
+    width: 27%;
+  }
+
+  .img-6{
+    width: 27%;
+  }
+
+  .img-7{
+    width: 27%;
+  }
+
+}
+
+
+body{
+  background-color:#141414 ; 
+ }
+ 
+ .navigation-panel { 
   display: flex;
   align-items: center;
-  border: 1px solid #dfd6b6;
-  background-color: #383838;
+  border: 1px solid #ffe4ca;
+  background-color: #464646;
   border-radius: 20px;
   justify-content: center;  
   align-items:center;  
-  margin: 0 10px 23px;
-  padding: 0 -20px 0 -10px;
-  margin-bottom:95px;
-  margin-left: 15px;
+  margin: 0 4px 23px;
+  padding: 0 -25px 0 -10px;
+  margin-bottom:8vh;
+  margin-left: 1.7vh;
   padding-bottom: 5px;
   padding-top: 10px;
+  padding-right: 1vh;
   font-family: "Montserrat", sans-serif; 
   font-optical-sizing: auto; 
   font-style: 700; 
   position: fixed; 
   font-size: 12px; 
   bottom: 0; 
-  width: 400px; 
-  height:63px;
+  width: 90%; 
+  height:7%;
   display: flex; 
   justify-content: center; 
   align-items: center; 
   z-index: 100;
-  
+ 
 } 
+
+
 
 .Cards{
   display: flex;
-  gap: 50px;
+  gap: 80px;
   font-size: 18px;
   position: absolute;
-  width: 300px;
-  height: 40px;
+  width: 75%;
+  height: 4%;
   border-radius: 15px;
   background-color: #464646;
-  padding: 10px 10px 0 0;
-  left: 14%;
-  top:15%;
+  padding-left: 6vh;
+  padding-top: 1vh;
+  left: 6.5%;
+  top:16%;
+ 
+}
+
+
+
+.img-two-img-two{
+ position: absolute;
+ top: 46%;
+ left: -8%;
+}
+
+
+.img-two-img-two-img{
+  position: absolute;
+  top: -23%;
+  left: -18%;
+ }
+
+ .img-two-img-two-img-img{
+  position: absolute;
+  margin-top: 0.7vh;
+ }
+
+
+
+
+.cart-section{
+  background-color: #1d1e20;
+  width: 465%;
+ 
+  height: 40%;
+  padding: 9vh 1vh 0vh 1vh;
+  margin: 3.7vh;
+  margin-left: -6.4vh;
+  border-radius: 14px;
+  z-index: 100;
+}
+
+.items-section{
+  color:#464646;
+  margin-left: 5vh;
+}
+
+.items-section-two{
+  margin-top: 4vh;
+  margin-left: -5vh;
+}
+
+
+.items-section-two-two{
+  margin-top: 4vh;
+  margin-left: -7vh;
+  font-weight: bold;
+}
+
+.items-section-svg{
+  color:#464646;
+  position: absolute;
+  width: 90px;
+  margin-top: 0.3vh;
+ margin-left: 4vh;
+}
+
+.items-section-two-svg{
+  position: absolute;
+  margin-top: 2.6vh;
+  margin-left:5vh;
+}
+
+
+.block-section{
+  display: flex;
+  width: 20%;
+  height: 2%;
+  color: #d3d0d0;
+  position: absolute;
+  left: 4%;
+  top: 8%;
+}
+
+.block-section-two{
+  display: flex;
+  color: #d3d0d0;
+  position: absolute;
+  left: 31%;
+  top: 8%;
+}
+
+.block-section-two-two{
+  display: flex;
+  color: #d3d0d0;
+  position: absolute;
+  left: 67%;
+  top: 9.5%;
 }
 
 .main-name{
-  color: aliceblue;
-  margin: 5px 0 0 28px;
+  color: rgb(193, 198, 199);
+  margin: 1px -13px -1px 14px;
+ 
 }
 
 .message-of-earn {
@@ -66,7 +213,106 @@
   white-space: nowrap;
 }
 
+a{
+  color: #d3d0d0;
+  list-style: none;
+  text-decoration: none;
+}
 
 
 
 
+
+.img-1{
+  position: absolute;
+  top: 150%;
+  left: -1%;
+}
+
+.title{
+  position: absolute;
+  color: aliceblue;
+  font-size: 17px;
+  margin-top: -8vh;
+  margin-left: 8.9vh;
+}
+
+.box-title{
+  position: absolute;
+  background-color: #464646;
+  border-radius: 30px;
+  margin-left: 10vh;
+  margin-top: -4.5vh;
+  width: 42px;
+  height: 25px;
+}
+
+.box-list{
+  position: absolute;
+  color: aliceblue;
+  font-size: 14px;
+  margin-top: 0.2vh;
+  margin-left: 0.8vh;
+}
+
+.box-img{
+  position: absolute;
+  left: 75%;
+  top: -120%;
+}
+
+.box-decr{
+  position: absolute;
+  color:rgb(235, 190, 76);
+  left: 200%;
+  top:-70%;
+  font-weight: bold;
+}
+
+.box-script{
+  position: absolute;
+  background-color: chocolate;
+  border-radius: 10px;
+  width: 130%;
+  height: 2%;
+  left: 360%;
+  top: -80%;
+  padding: 2.6vh;
+}
+
+.box-img-two{
+  position: absolute;
+  top: 4.6%;
+  left: 10%;
+}
+
+.box-end{
+  color: aliceblue;
+  position: absolute;
+  left: 485%;
+  top:-105.1%;
+}
+
+
+.img-2{
+  position: absolute;
+  top: 430%;
+  left: -0.2%;
+}
+
+.img-3{
+  position: absolute;
+  top: 699%;
+  left: -1.1vh;
+}
+
+.img-4{
+  position: absolute;
+  top: 1000%;
+}
+
+.img-5{
+  position: absolute;
+  top: 1290%;
+  left: -1%;
+}

@@ -7,32 +7,31 @@ body{
 .navigation-panel { 
   display: flex;
   align-items: center;
-  border: 1px solid #dfd6b6;
-  background-color: #383838;
+  border: 1px solid #ffe4ca;
+  background-color: #464646;
   border-radius: 20px;
   justify-content: center;  
   align-items:center;  
-  margin: 0 10px 23px;
-  padding: 0 -20px 0 -10px;
-  margin-bottom:95px;
-  margin-left: 15px;
-  padding-bottom: -5px;
+  margin: 0 4px 23px;
+  padding: 0 -25px 0 -10px;
+  margin-bottom:8vh;
+  margin-left: 1.7vh;
+  padding-bottom: 5px;
   padding-top: 10px;
+  padding-right: 1vh;
   font-family: "Montserrat", sans-serif; 
   font-optical-sizing: auto; 
   font-style: 700; 
   position: fixed; 
   font-size: 12px; 
   bottom: 0; 
-  width: 400px; 
-  height:63px;
+  width: 90%; 
+  height:7%;
   display: flex; 
   justify-content: center; 
   align-items: center; 
   z-index: 100;
-  
 } 
-
 
 .main-message {
     font-family: "Montserrat", sans-serif;
@@ -76,6 +75,7 @@ body{
     position: absolute;
     top: 11.8%;
     left:57.3%;
+    z-index: -500;
   }
 
   .box-items{
