@@ -37,9 +37,13 @@ export default function EarnPage() {
           <p className="items-section-two-svg">1</p>
        </div>
           </div>
+          <div>
+          <h4 className="main-name"><a className="link">Майнинг </a></h4>
+          <h4  className="main-name"><a className="link" href="/busting">Бустеры</a></h4>
+          </div>
+        
       <div className="Cards">
-        <div>
-        <h4 className="main-name"><a className="link">Майнинг </a></h4>
+        <div className="cards-scroll">
         <div className="cart-section">
         <img className='img-1' 
           src='./images/ноутбук.png' 
@@ -190,8 +194,38 @@ export default function EarnPage() {
           <p className="box-end">910</p>
           </div>
           </div>
+          <div className="cart-section">
+        <img className='img-5' 
+          src='./images/автослон.png' 
+          alt='Монета' 
+          height={95}
+          width={100}
+          />
+          <h2 className="title">Автосалон</h2>
+          <div className="box-title">
+            <p className="box-list">0 ур.</p>
+            <img className='box-img' 
+          src='./images/доллар.png' 
+          alt='Монета' 
+          height={75}
+          width={75}
+          />
+          <p className="box-decr">+50</p>
+          <div className="box-script">
+          <img className='box-img-two' 
+          src='./images/жетон.png' 
+          alt='Монета' 
+          height={38}
+          width={38}
+          />
+          </div>
+          <p className="box-end">910</p>
+          </div>
+          </div>
+
+
         </div>
-        <h4  className="main-name"><a className="link" href="/busting">Бустеры</a></h4>
+        
 
       </div>
     </div>

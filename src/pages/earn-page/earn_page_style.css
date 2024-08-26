@@ -67,7 +67,7 @@ body{
   font-family: "Montserrat", sans-serif; 
   font-optical-sizing: auto; 
   font-style: 700; 
-  position: fixed; 
+  position: absolute; 
   font-size: 12px; 
   bottom: 0; 
   width: 90%; 
@@ -83,19 +83,21 @@ body{
 
 .Cards{
   display: flex;
-  gap: 80px;
+  align-items: center;
   font-size: 18px;
   position: absolute;
-  width: 75%;
-  height: 4%;
-  border-radius: 15px;
-  background-color: #464646;
-  padding-left: 6vh;
-  padding-top: 1vh;
+  max-width: 190%;
+  max-height: auto;
+  width: full;
+  overflow-y: auto;
+  width: 90%;
+  height:70%;
   left: 6.5%;
   top:16%;
+
  
 }
+
 
 
 
@@ -119,15 +121,13 @@ body{
 
 
 
-
 .cart-section{
-  background-color: #1d1e20;
-  width: 465%;
- 
+  width: 3290%;
   height: 40%;
-  padding: 9vh 1vh 0vh 1vh;
-  margin: 3.7vh;
-  margin-left: -6.4vh;
+  background-color: #1d1e20;
+  padding: 10vh 1vh 0vh 1vh;
+  margin: 1.7vh;
+  margin-left: -0.vh;
   border-radius: 14px;
   z-index: 100;
 }
@@ -190,11 +190,6 @@ body{
   top: 9.5%;
 }
 
-.main-name{
-  color: rgb(193, 198, 199);
-  margin: 1px -13px -1px 14px;
- 
-}
 
 .message-of-earn {
   font-family: "Montserrat", sans-serif;
@@ -225,8 +220,9 @@ a{
 
 .img-1{
   position: absolute;
-  top: 150%;
-  left: -1%;
+  top: 10%;
+  left:1.7%;
+
 }
 
 .title{
@@ -234,14 +230,14 @@ a{
   color: aliceblue;
   font-size: 17px;
   margin-top: -8vh;
-  margin-left: 8.9vh;
+  margin-left: 12.5vh;
 }
 
 .box-title{
   position: absolute;
   background-color: #464646;
   border-radius: 30px;
-  margin-left: 10vh;
+  margin-left: 14vh;
   margin-top: -4.5vh;
   width: 42px;
   height: 25px;
@@ -257,14 +253,14 @@ a{
 
 .box-img{
   position: absolute;
-  left: 75%;
+  left: 85%;
   top: -120%;
 }
 
 .box-decr{
   position: absolute;
   color:rgb(235, 190, 76);
-  left: 200%;
+  left: 220%;
   top:-70%;
   font-weight: bold;
 }
@@ -275,7 +271,7 @@ a{
   border-radius: 10px;
   width: 130%;
   height: 2%;
-  left: 360%;
+  left: 390%;
   top: -80%;
   padding: 2.6vh;
 }
@@ -289,8 +285,8 @@ a{
 .box-end{
   color: aliceblue;
   position: absolute;
-  left: 485%;
-  top:-105.1%;
+  left: 510%;
+  top:-106%;
 }
 
 
